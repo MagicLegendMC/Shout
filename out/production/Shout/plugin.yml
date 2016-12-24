@@ -1,0 +1,15 @@
+name: Shout
+version: 1.0
+author: Simon_Xz
+main: net.magiclegend.net.Main
+commands:
+   shout:
+      description: This command allows you to make your text stand out in chat.
+      usage: /shout <message>
+      permission: shout.use
+      permission-message: I'm sorry but it dose'nt seem like you have the right permissions, Ask the server admin to add <permission>
+   shoutreload:
+      description: This command reloads the configs of the plugin
+      usage: /shoutreload
+      permission: shout.reload
+      permission-message: I'm sorry but it dose'nt seem like you have the right permissions, Ask the server admin to add <permission>
